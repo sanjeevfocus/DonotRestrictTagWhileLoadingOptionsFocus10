@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.focus.testcases.TransactionAuthorizationDefinitionOptionsTest">
+        <methods>
+          <include name="checkSavingPurchaseVoucherN2ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkSavingPurchaseVoucherN5ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings2"/>
+          <include name="checkLoginTOTA"/>
+          <include name="checkEmailTemplateGettingToTheUserWithRejectTheVoucherFromVoucherEntryPageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings1"/>
+          <include name="openBrowser"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings3"/>
+          <include name="checkSavingPurchaseVoucherN3ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkApproveTheVoucherFromVoucherEntryPageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkEmailTemplateGettingToTheUserWithApproveTheVoucherFromVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkSavingPurchaseVoucherN6ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkRejectTheVoucherThroughEmail"/>
+          <include name="generateReports"/>
+          <include name="checkEmailTemplateGettingToTheUserWithApproveTheDocumentFromPendingAuthorizationTabForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkSavingPurchaseVoucherNForSendAsAttachmentOptionForRejectThroughEmail"/>
+          <include name="checkRejectTheVoucherFromVoucherEntryPageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkAuthorizationStatusInVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings3"/>
+          <include name="checkEmailTemplateGettingToTheUserWithRejectTheDocumentFromPendingAuthorizationTabForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkEmailTemplateGettingToTheUserWithRejectTheVoucherFromVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkAuthorizationStatusInVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings5"/>
+          <include name="checkApproveTheDocumentFromPendingAuthorizationTabForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkAuthorizationStatusInVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings2"/>
+          <include name="checkAuthorizationStatusInVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings4"/>
+          <include name="checkAuthorizationStatusInVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings1"/>
+          <include name="checkEmailTemplateGettingToTheUserWithApproveTheVoucherFromVoucherEntryPageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkRejectTheDocumentFromPendingAuthorizationTabForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkLogout"/>
+          <include name="checkApproveTheVoucherFromVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="intialiseReports"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings5"/>
+          <include name="closeBrowser"/>
+          <include name="checkLogoutAndLoginWithUser3ForSendAsAttachmentOptionInInvoiceEmailSettings4"/>
+          <include name="checkSavingPurchaseVoucherNForSendAsAttachmentOptionForApproveThrougEmail"/>
+          <include name="checkRejectTheVoucherFromVoucherHomePageForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkSavingPurchaseVoucherN4ForSendAsAttachmentOptionInInvoiceEmailSettings"/>
+          <include name="checkApproveTheVoucherThroughEmail"/>
+        </methods>
+      </class> <!-- com.focus.testcases.TransactionAuthorizationDefinitionOptionsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
