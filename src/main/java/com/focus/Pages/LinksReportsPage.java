@@ -5394,7 +5394,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
+		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
 		
 		
 		
@@ -5406,7 +5406,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
+		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
 		
 		
 		
@@ -5418,7 +5418,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
+		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -5440,7 +5440,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 01/01/2024, 31/01/2024, SalInv:42, item2, 5.00, , Pending]";
+		String expRow6List = "[6, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -5451,7 +5451,7 @@ public class LinksReportsPage extends BaseEngine
 			report7thRowListArray.add(data);
 		}
 		String actRow7List = report7thRowListArray.toString();
-		String expRow7List = "[7, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
+		String expRow7List = "[7, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
 		
 		int report8thRowListCount = reportsRow8List.size();
 		ArrayList<String> report8thRowListArray = new ArrayList<String>();
@@ -5472,7 +5472,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[9, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
+		String expRow9List = "[9, 01/01/2024, 31/01/2024, SalInv:42, item2, 5.00, , Pending]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -5632,7 +5632,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
+		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
 		
 		
 		
@@ -5644,7 +5644,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
+		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
 		
 		
 		
@@ -5656,7 +5656,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
+		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -5667,7 +5667,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[5, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
+		String expRow5List = "[5, 20/01/2024, 31/01/2024, SalOrd:46, item4, 8.00, 8.00, Pending]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -5678,7 +5678,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 20/01/2024, 31/01/2024, SalOrd:46, item4, 8.00, 8.00, Pending]";
+		String expRow6List = "[6, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -5689,7 +5689,7 @@ public class LinksReportsPage extends BaseEngine
 			report7thRowListArray.add(data);
 		}
 		String actRow7List = report7thRowListArray.toString();
-		String expRow7List = "[7, 01/01/2024, 31/01/2024, SalOrd:44, item4, 5.00, 5.00, Pending]";
+		String expRow7List = "[7, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
 		
 		int report8thRowListCount = reportsRow8List.size();
 		ArrayList<String> report8thRowListArray = new ArrayList<String>();
@@ -5699,7 +5699,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[8, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
+		String expRow8List = "[8, 01/01/2024, 31/01/2024, SalOrd:44, item4, 5.00, 5.00, Pending]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -5982,7 +5982,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 19/03/2024, 25/03/2024, SalInv:64, item1, 10.00, , Auto Closed]";
+		String expRow3List = "[3, 19/03/2024, 25/03/2024, SalOrd:57, item1, 10.00, , Auto Closed]";
 		
 		int reportsRow4ListCount = reportsRow4List.size();
 		ArrayList<String> reportsRow4ListArray = new ArrayList<String>();
@@ -5992,7 +5992,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 19/03/2024, 25/03/2024, SalInv:64, item2, 30.00, , Auto Closed]";
+		String expRow4List = "[4, 19/03/2024, 25/03/2024, SalOrd:57, item2, 30.00, , Auto Closed]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -6003,7 +6003,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[5, 19/03/2024, 25/03/2024, SalOrd:57, item2, 30.00, , Auto Closed]";
+		String expRow5List = "[5, 19/03/2024, 25/03/2024, SalInv:64, item1, 10.00, , Auto Closed]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -6014,7 +6014,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 19/03/2024, 25/03/2024, SalOrd:57, item1, 10.00, , Auto Closed]";
+		String expRow6List = "[6, 19/03/2024, 25/03/2024, SalInv:64, item2, 30.00, , Auto Closed]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -6035,7 +6035,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[8, 26/03/2024, 30/03/2024, SalInv:69, item2, 10.00, , Auto Closed]";
+		String expRow8List = "[8, 26/03/2024, 30/03/2024, SalInv:61, item2, 10.00, , Auto Closed]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -6046,7 +6046,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[9, 26/03/2024, 30/03/2024, SalInv:61, item2, 10.00, , Auto Closed]";
+		String expRow9List = "[9, 26/03/2024, 30/03/2024, SalInv:69, item2, 10.00, , Auto Closed]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -6057,7 +6057,7 @@ public class LinksReportsPage extends BaseEngine
 			report10thRowListArray.add(data);
 		}
 		String actRow10List = report10thRowListArray.toString();
-		String expRow10List = "[10, 29/03/2024, 31/03/2024, SalOrd:59, item3, 30.00, , Auto Closed]";
+		String expRow10List = "[10, 29/03/2024, 31/03/2024, SalOrd:59, item1, 10.00, , Auto Closed]";
 		
 		
 		
@@ -6069,7 +6069,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[11, 29/03/2024, 31/03/2024, SalInv:65, item2, 20.00, , Auto Closed]";
+		String expRow11List = "[11, 29/03/2024, 31/03/2024, SalOrd:59, item2, 20.00, , Auto Closed]";
 		
 		
 		
@@ -6081,7 +6081,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow12ListArray.add(data);
 		}
 		String actRow12List = reportsRow12ListArray.toString();
-		String expRow12List = "[12, 29/03/2024, 31/03/2024, SalInv:65, item3, 30.00, , Auto Closed]";
+		String expRow12List = "[12, 29/03/2024, 31/03/2024, SalOrd:59, item3, 30.00, , Auto Closed]";
 		
 		
 		int reportsRow13ListCount = reportsRow13List.size();
@@ -6092,7 +6092,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[13, 29/03/2024, 31/03/2024, SalOrd:59, item1, 10.00, , Auto Closed]";
+		String expRow13List = "[13, 29/03/2024, 31/03/2024, SalInv:65, item1, 10.00, , Auto Closed]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -6102,7 +6102,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[14, 29/03/2024, 31/03/2024, SalOrd:59, item2, 20.00, , Auto Closed]";
+		String expRow14List = "[14, 29/03/2024, 31/03/2024, SalInv:65, item2, 20.00, , Auto Closed]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -6112,7 +6112,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow15ListArray.add(data);
 		}
 		String actRow15List = reportsRow15ListArray.toString();
-		String expRow15List = "[15, 29/03/2024, 31/03/2024, SalInv:65, item1, 10.00, , Auto Closed]";
+		String expRow15List = "[15, 29/03/2024, 31/03/2024, SalInv:65, item3, 30.00, , Auto Closed]";
 		
 		int reportsRow16ListCount = reportsRow16List.size();
 		ArrayList<String> reportsRow16ListArray = new ArrayList<String>();
@@ -6257,7 +6257,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[1, 29/03/2024, 31/03/2024, SalInv:66, item4, 20.00, , Manually Closed]";
+		String expRow1List = "[1, 29/03/2024, 31/03/2024, SalOrd:59, item4, 40.00, , Manually Closed]";
 		
 		
 
@@ -6269,7 +6269,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 29/03/2024, 31/03/2024, SalOrd:59, item4, 40.00, , Manually Closed]";
+		String expRow2List = "[2, 29/03/2024, 31/03/2024, SalInv:66, item4, 20.00, , Manually Closed]";
 		
 		
 		
@@ -6399,7 +6399,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
+		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
 		
 		
 		
@@ -6411,7 +6411,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
+		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
 		
 		int reportsRow4ListCount = reportsRow4List.size();
 		ArrayList<String> reportsRow4ListArray = new ArrayList<String>();
@@ -6421,7 +6421,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
+		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -6443,7 +6443,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 01/01/2024, 31/01/2024, SalInv:42, item2, 5.00, , Pending]";
+		String expRow6List = "[6, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -6454,7 +6454,7 @@ public class LinksReportsPage extends BaseEngine
 			report7thRowListArray.add(data);
 		}
 		String actRow7List = report7thRowListArray.toString();
-		String expRow7List = "[7, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
+		String expRow7List = "[7, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
 		
 		int report8thRowListCount = reportsRow8List.size();
 		ArrayList<String> report8thRowListArray = new ArrayList<String>();
@@ -6475,7 +6475,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[9, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
+		String expRow9List = "[9, 01/01/2024, 31/01/2024, SalInv:42, item2, 5.00, , Pending]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -6651,7 +6651,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[1, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
+		String expRow1List = "[1, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
 		
 		
 
@@ -6663,7 +6663,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item4, 8.00, 8.00, Pending]";
+		String expRow2List = "[2, 20/01/2024, 31/01/2024, SalOrd:46, item2, 8.00, 8.00, Pending]";
 		
 		
 		
@@ -6675,7 +6675,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item1, 15.00, 15.00, Pending]";
+		String expRow3List = "[3, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
 		
 		int reportsRow4ListCount = reportsRow4List.size();
 		ArrayList<String> reportsRow4ListArray = new ArrayList<String>();
@@ -6685,7 +6685,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item3, 10.00, 10.00, Pending]";
+		String expRow4List = "[4, 20/01/2024, 31/01/2024, SalOrd:46, item4, 8.00, 8.00, Pending]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -6828,7 +6828,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[1, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
+		String expRow1List = "[1, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
 		
 		
 
@@ -6840,7 +6840,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 01/01/2024, 31/01/2024, SalOrd:44, item2, 15.00, 10.00, Pending]";
+		String expRow2List = "[2, 01/01/2024, 31/01/2024, SalOrd:44, item3, 10.00, 5.00, Pending]";
 		
 		
 		
@@ -6978,7 +6978,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, 19/03/2024, 25/03/2024, SalInv:64, item1, 10.00, , Auto Closed]";
+		String expRow2List = "[2, 19/03/2024, 25/03/2024, SalOrd:57, item1, 10.00, , Auto Closed]";
 		
 		
 		
@@ -6990,7 +6990,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[3, 19/03/2024, 25/03/2024, SalInv:64, item2, 30.00, , Auto Closed]";
+		String expRow3List = "[3, 19/03/2024, 25/03/2024, SalOrd:57, item2, 30.00, , Auto Closed]";
 		
 		int reportsRow4ListCount = reportsRow4List.size();
 		ArrayList<String> reportsRow4ListArray = new ArrayList<String>();
@@ -7000,7 +7000,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 19/03/2024, 25/03/2024, SalOrd:57, item2, 30.00, , Auto Closed]";
+		String expRow4List = "[4, 19/03/2024, 25/03/2024, SalInv:64, item1, 10.00, , Auto Closed]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -7011,7 +7011,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[5, 19/03/2024, 25/03/2024, SalOrd:57, item1, 10.00, , Auto Closed]";
+		String expRow5List = "[5, 19/03/2024, 25/03/2024, SalInv:64, item2, 30.00, , Auto Closed]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -7022,7 +7022,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 19/03/2024, 23/03/2024, SalOrd:56, item2, 10.00, , Auto Closed]";
+		String expRow6List = "[6, 19/03/2024, 23/03/2024, SalInv:68, item2, 10.00, , Auto Closed]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -7043,7 +7043,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[8, 19/03/2024, 23/03/2024, SalInv:68, item2, 10.00, , Auto Closed]";
+		String expRow8List = "[8, 19/03/2024, 23/03/2024, SalOrd:56, item2, 10.00, , Auto Closed]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -7054,7 +7054,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[9, 12/03/2024, 12/03/2024, SalOrd:55, item4, 5.00, 5.00, Pending]";
+		String expRow9List = "[9, 12/03/2024, 12/03/2024, SalOrd:55, item2, 15.00, 15.00, Pending]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -7077,7 +7077,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[11, 12/03/2024, 12/03/2024, SalOrd:55, item2, 15.00, 15.00, Pending]";
+		String expRow11List = "[11, 12/03/2024, 12/03/2024, SalOrd:55, item4, 5.00, 5.00, Pending]";
 		
 		
 		
@@ -7089,7 +7089,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow12ListArray.add(data);
 		}
 		String actRow12List = reportsRow12ListArray.toString();
-		String expRow12List = "[12, 05/03/2024, 05/03/2024, SalInv:57, item2, 50.00, , Pending]";
+		String expRow12List = "[12, 05/03/2024, 05/03/2024, SalOrd:53, item1, 5.00, 5.00, Pending]";
 		
 		
 		int reportsRow13ListCount = reportsRow13List.size();
@@ -7100,7 +7100,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[13, 05/03/2024, 05/03/2024, SalOrd:53, item1, 5.00, 5.00, Pending]";
+		String expRow13List = "[13, 05/03/2024, 05/03/2024, SalOrd:53, item2, 100.00, 50.00, Pending]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -7110,7 +7110,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[14, 05/03/2024, 05/03/2024, SalOrd:53, item2, 100.00, 50.00, Pending]";
+		String expRow14List = "[14, 05/03/2024, 05/03/2024, SalInv:57, item2, 50.00, , Pending]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -7286,7 +7286,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[4, 16/06/2023, SalOrd:11, item4, 10.00, 10.00, , , , , , , 10.00, ]";
+		String expRow4List = "[4, 16/06/2023, SalOrd:11, item1, 5.00, 5.00, , , , , , , 5.00, ]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -7297,7 +7297,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[5, 16/06/2023, SalOrd:11, item1, 5.00, 5.00, , , , , , , 5.00, ]";
+		String expRow5List = "[5, 16/06/2023, SalOrd:11, item4, 10.00, 10.00, , , , , , , 10.00, ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -7329,7 +7329,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[8, 03/07/2023, SalOrd:15, item2, 20.00, 20.00, , , , , , , 20.00, ]";
+		String expRow8List = "[8, 03/07/2023, SalOrd:15, item1, 10.00, 5.00, , , , , , , 5.00, ]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -7340,7 +7340,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[9, 03/07/2023, SalOrd:15, item1, 10.00, 5.00, , , , , , , 5.00, ]";
+		String expRow9List = "[9, 03/07/2023, SalOrd:15, item2, 20.00, 20.00, , , , , , , 20.00, ]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -7351,7 +7351,7 @@ public class LinksReportsPage extends BaseEngine
 			report10thRowListArray.add(data);
 		}
 		String actRow10List = report10thRowListArray.toString();
-		String expRow10List = "[10, 18/07/2023, SalOrd:16, item2, 5.00, 5.00, , , , , , 5.00, , ]";
+		String expRow10List = "[10, 18/07/2023, SalOrd:16, item1, 12.00, 12.00, , , , , , 12.00, , ]";
 		
 		
 		
@@ -7363,7 +7363,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[11, 18/07/2023, SalOrd:16, item1, 12.00, 12.00, , , , , , 12.00, , ]";
+		String expRow11List = "[11, 18/07/2023, SalOrd:16, item2, 5.00, 5.00, , , , , , 5.00, , ]";
 		
 		
 		
@@ -7572,7 +7572,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[20, 02/10/2023, SalOrd:25, item3, 5.00, 5.00, , , , 5.00, , , , ]";
+		String expRow3List = "[20, 02/10/2023, SalOrd:25, item1, 9.00, 9.00, , , , 9.00, , , , ]";
 		
 		
 		
@@ -7584,7 +7584,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[21, 02/10/2023, SalOrd:25, item1, 9.00, 9.00, , , , 9.00, , , , ]";
+		String expRow4List = "[21, 02/10/2023, SalOrd:25, item3, 5.00, 5.00, , , , 5.00, , , , ]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -7595,7 +7595,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[22, 04/10/2023, SalOrd:24, item3, 12.00, 12.00, , , 12.00, , , , , ]";
+		String expRow5List = "[22, 04/10/2023, SalOrd:24, item2, 5.00, 5.00, , , 5.00, , , , , ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -7606,7 +7606,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[23, 04/10/2023, SalOrd:24, item2, 5.00, 5.00, , , 5.00, , , , , ]";
+		String expRow6List = "[23, 04/10/2023, SalOrd:24, item3, 12.00, 12.00, , , 12.00, , , , , ]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -7617,7 +7617,7 @@ public class LinksReportsPage extends BaseEngine
 			report7thRowListArray.add(data);
 		}
 		String actRow7List = report7thRowListArray.toString();
-		String expRow7List = "[24, 27/10/2023, SalOrd:28, item2, 15.00, 15.00, , , 15.00, , , , , ]";
+		String expRow7List = "[24, 27/10/2023, SalOrd:28, item1, 10.00, 10.00, , , 10.00, , , , , ]";
 		
 		int report8thRowListCount = reportsRow8List.size();
 		ArrayList<String> report8thRowListArray = new ArrayList<String>();
@@ -7627,7 +7627,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[25, 27/10/2023, SalOrd:28, item1, 10.00, 10.00, , , 10.00, , , , , ]";
+		String expRow8List = "[25, 27/10/2023, SalOrd:28, item2, 15.00, 15.00, , , 15.00, , , , , ]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -7638,7 +7638,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[26, 30/10/2023, SalOrd:29, item3, 450.00, 425.00, , , 425.00, , , , , ]";
+		String expRow9List = "[26, 30/10/2023, SalOrd:29, item1, 200.00, 162.00, , , 162.00, , , , , ]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -7661,7 +7661,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[28, 30/10/2023, SalOrd:29, item1, 200.00, 162.00, , , 162.00, , , , , ]";
+		String expRow11List = "[28, 30/10/2023, SalOrd:29, item3, 450.00, 425.00, , , 425.00, , , , , ]";
 		
 		
 		
@@ -7684,7 +7684,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[30, 30/10/2023, SalOrd:30, item3, 450.00, 450.00, , , 450.00, , , , , ]";
+		String expRow13List = "[30, 30/10/2023, SalOrd:30, item2, 300.00, 300.00, , , 300.00, , , , , ]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -7694,7 +7694,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[31, 30/10/2023, SalOrd:30, item2, 300.00, 300.00, , , 300.00, , , , , ]";
+		String expRow14List = "[31, 30/10/2023, SalOrd:30, item3, 450.00, 450.00, , , 450.00, , , , , ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -7853,7 +7853,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[36, 20/11/2023, SalOrd:37, item2, 5.00, 2.00, , 2.00, , , , , , ]";
+		String expRow2List = "[36, 20/11/2023, SalOrd:37, item1, 10.00, 8.00, , 8.00, , , , , , ]";
 		
 		
 		
@@ -7865,7 +7865,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow3ListArray.add(data);
 		}
 		String actRow3List = reportsRow3ListArray.toString();
-		String expRow3List = "[37, 20/11/2023, SalOrd:37, item1, 10.00, 8.00, , 8.00, , , , , , ]";
+		String expRow3List = "[37, 20/11/2023, SalOrd:37, item2, 5.00, 2.00, , 2.00, , , , , , ]";
 		
 		
 		
@@ -7877,7 +7877,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[38, 21/11/2023, SalOrd:34, item2, 10.00, 5.00, , 5.00, , , , , , ]";
+		String expRow4List = "[38, 21/11/2023, SalOrd:34, item1, 8.00, 4.00, , 4.00, , , , , , ]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -7888,7 +7888,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[39, 21/11/2023, SalOrd:34, item1, 8.00, 4.00, , 4.00, , , , , , ]";
+		String expRow5List = "[39, 21/11/2023, SalOrd:34, item2, 10.00, 5.00, , 5.00, , , , , , ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -7920,7 +7920,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[42, 18/12/2023, SalOrd:41, item3, 12.00, 6.00, 6.00, , , , , , , ]";
+		String expRow8List = "[42, 18/12/2023, SalOrd:41, item1, 5.00, 3.00, 3.00, , , , , , , ]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -7931,7 +7931,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[43, 18/12/2023, SalOrd:41, item4, 15.00, 12.00, 12.00, , , , , , , ]";
+		String expRow9List = "[43, 18/12/2023, SalOrd:41, item2, 9.00, 6.00, 6.00, , , , , , , ]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -7942,7 +7942,7 @@ public class LinksReportsPage extends BaseEngine
 			report10thRowListArray.add(data);
 		}
 		String actRow10List = report10thRowListArray.toString();
-		String expRow10List = "[44, 18/12/2023, SalOrd:41, item2, 9.00, 6.00, 6.00, , , , , , , ]";
+		String expRow10List = "[44, 18/12/2023, SalOrd:41, item3, 12.00, 6.00, 6.00, , , , , , , ]";
 		
 		
 		
@@ -7954,7 +7954,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[45, 18/12/2023, SalOrd:41, item1, 5.00, 3.00, 3.00, , , , , , , ]";
+		String expRow11List = "[45, 18/12/2023, SalOrd:41, item4, 15.00, 12.00, 12.00, , , , , , , ]";
 		
 		
 		
@@ -7966,7 +7966,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow12ListArray.add(data);
 		}
 		String actRow12List = reportsRow12ListArray.toString();
-		String expRow12List = "[46, 27/12/2023, SalOrd:43, item3, 20.00, 15.00, 15.00, , , , , , , ]";
+		String expRow12List = "[46, 27/12/2023, SalOrd:43, item2, 15.00, 6.00, 6.00, , , , , , , ]";
 		
 		
 		int reportsRow13ListCount = reportsRow13List.size();
@@ -7977,7 +7977,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[47, 27/12/2023, SalOrd:43, item2, 15.00, 6.00, 6.00, , , , , , , ]";
+		String expRow13List = "[47, 27/12/2023, SalOrd:43, item3, 20.00, 15.00, 15.00, , , , , , , ]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -7987,7 +7987,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[48, 01/01/2024, SalOrd:44, item4, 5.00, 5.00, 5.00, , , , , , , ]";
+		String expRow14List = "[48, 01/01/2024, SalOrd:44, item2, 15.00, 10.00, 10.00, , , , , , , ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -7997,7 +7997,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow15ListArray.add(data);
 		}
 		String actRow15List = reportsRow15ListArray.toString();
-		String expRow15List = "[49, 01/01/2024, SalOrd:44, item2, 15.00, 10.00, 10.00, , , , , , , ]";
+		String expRow15List = "[49, 01/01/2024, SalOrd:44, item3, 10.00, 5.00, 5.00, , , , , , , ]";
 		
 		
 		int reportsRow16ListCount = reportsRow16List.size();
@@ -8008,7 +8008,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow16ListArray.add(data);
 		}
 		String actRow16List = reportsRow16ListArray.toString();
-		String expRow16List = "[50, 01/01/2024, SalOrd:44, item3, 10.00, 5.00, 5.00, , , , , , , ]";
+		String expRow16List = "[50, 01/01/2024, SalOrd:44, item4, 5.00, 5.00, 5.00, , , , , , , ]";
 		
 		
 		int reportsRow17ListCount = reportsRow17List.size();
@@ -8213,7 +8213,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[6, 02/05/2023, 02/05/2023, SalInv:6, item4, 15.00, 15.00, , , , , , , 15.00, ]";
+		String expRow6List = "[6, 02/05/2023, 02/05/2023, SalInv:6, item3, 7.00, 7.00, , , , , , , 7.00, ]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -8224,7 +8224,7 @@ public class LinksReportsPage extends BaseEngine
 			report7thRowListArray.add(data);
 		}
 		String actRow7List = report7thRowListArray.toString();
-		String expRow7List = "[7, 02/05/2023, 02/05/2023, SalInv:6, item3, 7.00, 7.00, , , , , , , 7.00, ]";
+		String expRow7List = "[7, 02/05/2023, 02/05/2023, SalInv:6, item4, 15.00, 15.00, , , , , , , 15.00, ]";
 		
 		int report8thRowListCount = reportsRow8List.size();
 		ArrayList<String> report8thRowListArray = new ArrayList<String>();
@@ -8301,7 +8301,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[14, 04/05/2023, 04/05/2023, SalOrd:8, item3, 9.00, 4.00, , , , , , , 4.00, ]";
+		String expRow14List = "[14, 04/05/2023, 04/05/2023, SalOrd:8, item1, 2.00, 2.00, , , , , , , 2.00, ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -8311,7 +8311,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow15ListArray.add(data);
 		}
 		String actRow15List = reportsRow15ListArray.toString();
-		String expRow15List = "[15, 04/05/2023, 04/05/2023, SalOrd:8, item1, 2.00, 2.00, , , , , , , 2.00, ]";
+		String expRow15List = "[15, 04/05/2023, 04/05/2023, SalOrd:8, item3, 9.00, 4.00, , , , , , , 4.00, ]";
 		
 		int reportsRow16ListCount = reportsRow16List.size();
 		ArrayList<String> reportsRow16ListArray = new ArrayList<String>();
@@ -8321,7 +8321,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow16ListArray.add(data);
 		}
 		String actRow16List = reportsRow16ListArray.toString();
-		String expRow16List = "[16, 04/05/2023, 04/05/2023, SalInv:2, item4, 7.00, 7.00, , , , , , , 7.00, ]";
+		String expRow16List = "[16, 04/05/2023, 04/05/2023, SalInv:2, item2, 8.00, 8.00, , , , , , , 8.00, ]";
 		
 		
 		int reportsRow17ListCount = reportsRow17List.size();
@@ -8332,7 +8332,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow17ListArray.add(data);
 		}
 		String actRow17List = reportsRow17ListArray.toString();
-		String expRow17List = "[17, 04/05/2023, 04/05/2023, SalInv:2, item2, 8.00, 8.00, , , , , , , 8.00, ]";
+		String expRow17List = "[17, 04/05/2023, 04/05/2023, SalInv:2, item4, 7.00, 7.00, , , , , , , 7.00, ]";
 		
 		
 		/*int reportsRow18ListCount = reportsRow18List.size();
@@ -8562,7 +8562,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow11ListArray.add(data);
 		}
 		String actRow11List = reportsRow11ListArray.toString();
-		String expRow11List = "[28, 19/06/2023, 19/06/2023, SalOrd:12, item2, 10.00, 10.00, , , , , , 10.00, , ]";
+		String expRow11List = "[28, 19/06/2023, 19/06/2023, SalOrd:12, item1, 15.00, 5.00, , , , , , 5.00, , ]";
 		
 		
 		
@@ -8574,7 +8574,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow12ListArray.add(data);
 		}
 		String actRow12List = reportsRow12ListArray.toString();
-		String expRow12List = "[29, 19/06/2023, 19/06/2023, SalOrd:12, item1, 15.00, 5.00, , , , , , 5.00, , ]";
+		String expRow12List = "[29, 19/06/2023, 19/06/2023, SalOrd:12, item2, 10.00, 10.00, , , , , , 10.00, , ]";
 		
 		
 		int reportsRow13ListCount = reportsRow13List.size();
@@ -8595,7 +8595,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[31, 20/06/2023, 20/06/2023, SalInv:12, item4, 6.00, 6.00, , , , , , 6.00, , ]";
+		String expRow14List = "[31, 20/06/2023, 20/06/2023, SalInv:12, item1, 10.00, 10.00, , , , , , 10.00, , ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -8605,7 +8605,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow15ListArray.add(data);
 		}
 		String actRow15List = reportsRow15ListArray.toString();
-		String expRow15List = "[32, 20/06/2023, 20/06/2023, SalInv:12, item1, 10.00, 10.00, , , , , , 10.00, , ]";
+		String expRow15List = "[32, 20/06/2023, 20/06/2023, SalInv:12, item4, 6.00, 6.00, , , , , , 6.00, , ]";
 		
 		int reportsRow16ListCount = reportsRow16List.size();
 		ArrayList<String> reportsRow16ListArray = new ArrayList<String>();
@@ -8743,7 +8743,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[35, 03/07/2023, 03/07/2023, SalOrd:15, item2, 20.00, 20.00, , , , , , 20.00, , ]";
+		String expRow1List = "[35, 03/07/2023, 03/07/2023, SalOrd:15, item1, 10.00, 5.00, , , , , , 5.00, , ]";
 		
 		
 
@@ -8755,7 +8755,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[36, 03/07/2023, 03/07/2023, SalOrd:15, item1, 10.00, 5.00, , , , , , 5.00, , ]";
+		String expRow2List = "[36, 03/07/2023, 03/07/2023, SalOrd:15, item2, 20.00, 20.00, , , , , , 20.00, , ]";
 		
 		
 		
@@ -8779,7 +8779,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow4ListArray.add(data);
 		}
 		String actRow4List = reportsRow4ListArray.toString();
-		String expRow4List = "[38, 18/07/2023, 18/07/2023, SalOrd:16, item2, 5.00, 5.00, , , , , 5.00, , , ]";
+		String expRow4List = "[38, 18/07/2023, 18/07/2023, SalOrd:16, item1, 12.00, 12.00, , , , , 12.00, , , ]";
 		
 	
 		int reportsRow5ListCount = reportsRow5List.size();
@@ -8790,7 +8790,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[39, 18/07/2023, 18/07/2023, SalOrd:16, item1, 12.00, 12.00, , , , , 12.00, , , ]";
+		String expRow5List = "[39, 18/07/2023, 18/07/2023, SalOrd:16, item2, 5.00, 5.00, , , , , 5.00, , , ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -8833,7 +8833,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[43, 28/08/2023, 28/08/2023, SalOrd:18, item3, 15.00, 15.00, , , , 15.00, , , , ]";
+		String expRow9List = "[43, 28/08/2023, 28/08/2023, SalOrd:18, item2, 5.00, 5.00, , , , 5.00, , , , ]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -8844,7 +8844,7 @@ public class LinksReportsPage extends BaseEngine
 			report10thRowListArray.add(data);
 		}
 		String actRow10List = report10thRowListArray.toString();
-		String expRow10List = "[44, 28/08/2023, 28/08/2023, SalOrd:18, item2, 5.00, 5.00, , , , 5.00, , , , ]";
+		String expRow10List = "[44, 28/08/2023, 28/08/2023, SalOrd:18, item3, 15.00, 15.00, , , , 15.00, , , , ]";
 		
 		
 		
@@ -8879,7 +8879,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[47, 28/08/2023, 28/08/2023, SalOrd:20, item4, 20.00, 20.00, , , , 20.00, , , , ]";
+		String expRow13List = "[47, 28/08/2023, 28/08/2023, SalOrd:20, item1, 10.00, 10.00, , , , 10.00, , , , ]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -8889,7 +8889,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[48, 28/08/2023, 28/08/2023, SalOrd:20, item1, 10.00, 10.00, , , , 10.00, , , , ]";
+		String expRow14List = "[48, 28/08/2023, 28/08/2023, SalOrd:20, item2, 5.00, 5.00, , , , 5.00, , , , ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -8909,7 +8909,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow16ListArray.add(data);
 		}
 		String actRow16List = reportsRow16ListArray.toString();
-		String expRow16List = "[50, 28/08/2023, 28/08/2023, SalOrd:20, item2, 5.00, 5.00, , , , 5.00, , , , ]";
+		String expRow16List = "[50, 28/08/2023, 28/08/2023, SalOrd:20, item4, 20.00, 20.00, , , , 20.00, , , , ]";
 		
 		
 		int reportsRow17ListCount = reportsRow17List.size();
@@ -9084,7 +9084,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[56, 25/09/2023, 25/09/2023, SalOrd:22, item2, 20.00, 20.00, , , 20.00, , , , , ]";
+		String expRow5List = "[56, 25/09/2023, 25/09/2023, SalOrd:22, item1, 15.00, 3.00, , , 3.00, , , , , ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -9095,7 +9095,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[57, 25/09/2023, 25/09/2023, SalOrd:22, item1, 15.00, 3.00, , , 3.00, , , , , ]";
+		String expRow6List = "[57, 25/09/2023, 25/09/2023, SalOrd:22, item2, 20.00, 20.00, , , 20.00, , , , , ]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -9116,7 +9116,7 @@ public class LinksReportsPage extends BaseEngine
 			report8thRowListArray.add(data);
 		}
 		String actRow8List = report8thRowListArray.toString();
-		String expRow8List = "[59, 25/09/2023, 25/09/2023, SalInv:21, item1, 2.00, 2.00, , , 2.00, , , , , ]";
+		String expRow8List = "[59, 25/09/2023, 25/09/2023, SalInv:21, item1, 5.00, 5.00, , , 5.00, , , , , ]";
 		
 		
 		int report9thRowListCount = reportsRow9List.size();
@@ -9127,7 +9127,7 @@ public class LinksReportsPage extends BaseEngine
 			report9thRowListArray.add(data);
 		}
 		String actRow9List = report9thRowListArray.toString();
-		String expRow9List = "[60, 25/09/2023, 25/09/2023, SalInv:21, item1, 5.00, 5.00, , , 5.00, , , , , ]";
+		String expRow9List = "[60, 25/09/2023, 25/09/2023, SalInv:21, item1, 2.00, 2.00, , , 2.00, , , , , ]";
 		
 		
 		int report10thRowListCount = reportsRow10List.size();
@@ -9162,7 +9162,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow12ListArray.add(data);
 		}
 		String actRow12List = reportsRow12ListArray.toString();
-		String expRow12List = "[63, 04/10/2023, 04/10/2023, SalOrd:24, item3, 12.00, 12.00, , 12.00, , , , , , ]";
+		String expRow12List = "[63, 04/10/2023, 04/10/2023, SalOrd:24, item2, 5.00, 5.00, , 5.00, , , , , , ]";
 		
 		
 		int reportsRow13ListCount = reportsRow13List.size();
@@ -9173,7 +9173,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[64, 04/10/2023, 04/10/2023, SalOrd:24, item2, 5.00, 5.00, , 5.00, , , , , , ]";
+		String expRow13List = "[64, 04/10/2023, 04/10/2023, SalOrd:24, item3, 12.00, 12.00, , 12.00, , , , , , ]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -9214,7 +9214,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow17ListArray.add(data);
 		}
 		String actRow17List = reportsRow17ListArray.toString();
-		String expRow17List = "[68, 30/10/2023, 30/10/2023, SalOrd:29, item3, 450.00, 425.00, , 425.00, , , , , , ]";
+		String expRow17List = "[68, 30/10/2023, 30/10/2023, SalOrd:29, item2, 300.00, 300.00, , 300.00, , , , , , ]";
 		
 		
 		/*int reportsRow18ListCount = reportsRow18List.size();
@@ -9331,7 +9331,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[69, 30/10/2023, 30/10/2023, SalOrd:29, item2, 300.00, 300.00, , 300.00, , , , , , ]";
+		String expRow1List = "[69, 30/10/2023, 30/10/2023, SalOrd:29, item3, 450.00, 425.00, , 425.00, , , , , , ]";
 		
 		
 
@@ -9378,7 +9378,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow5ListArray.add(data);
 		}
 		String actRow5List = reportsRow5ListArray.toString();
-		String expRow5List = "[73, 30/10/2023, 30/10/2023, SalOrd:30, item3, 450.00, 450.00, , 450.00, , , , , , ]";
+		String expRow5List = "[73, 30/10/2023, 30/10/2023, SalOrd:30, item2, 300.00, 300.00, , 300.00, , , , , , ]";
 		
 		
 		int report6thRowListCount = reportsRow6List.size();
@@ -9389,7 +9389,7 @@ public class LinksReportsPage extends BaseEngine
 			report6thRowListArray.add(data);
 		}
 		String actRow6List = report6thRowListArray.toString();
-		String expRow6List = "[74, 30/10/2023, 30/10/2023, SalOrd:30, item2, 300.00, 300.00, , 300.00, , , , , , ]";
+		String expRow6List = "[74, 30/10/2023, 30/10/2023, SalOrd:30, item3, 450.00, 450.00, , 450.00, , , , , , ]";
 		
 		
 		int report7thRowListCount = reportsRow7List.size();
@@ -9467,7 +9467,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow13ListArray.add(data);
 		}
 		String actRow13List = reportsRow13ListArray.toString();
-		String expRow13List = "[81, 20/11/2023, 20/11/2023, SalOrd:33, item2, 5.00, 5.00, 5.00, , , , , , , ]";
+		String expRow13List = "[81, 20/11/2023, 20/11/2023, SalOrd:33, item1, 12.00, 12.00, 12.00, , , , , , , ]";
 		
 		int reportsRow14ListCount = reportsRow14List.size();
 		ArrayList<String> reportsRow14ListArray = new ArrayList<String>();
@@ -9477,7 +9477,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow14ListArray.add(data);
 		}
 		String actRow14List = reportsRow14ListArray.toString();
-		String expRow14List = "[82, 20/11/2023, 20/11/2023, SalOrd:33, item1, 12.00, 12.00, 12.00, , , , , , , ]";
+		String expRow14List = "[82, 20/11/2023, 20/11/2023, SalOrd:33, item2, 5.00, 5.00, 5.00, , , , , , , ]";
 		
 		int reportsRow15ListCount = reportsRow15List.size();
 		ArrayList<String> reportsRow15ListArray = new ArrayList<String>();
@@ -9508,7 +9508,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsRow17ListArray.add(data);
 		}
 		String actRow17List = reportsRow17ListArray.toString();
-		String expRow17List = "[85, 20/11/2023, 20/11/2023, SalInv:49, item2, 3.00, 3.00, 3.00, , , , , , , ]";
+		String expRow17List = "[85, 20/11/2023, 20/11/2023, SalInv:49, item1, 2.00, 2.00, 2.00, , , , , , , ]";
 		
 		
 		/*int reportsRow18ListCount = reportsRow18List.size();
@@ -9625,7 +9625,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[86, 20/11/2023, 20/11/2023, SalInv:49, item1, 2.00, 2.00, 2.00, , , , , , , ]";
+		String expRow1List = "[86, 20/11/2023, 20/11/2023, SalInv:49, item2, 3.00, 3.00, 3.00, , , , , , , ]";
 		
 		
 
@@ -10888,7 +10888,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow1ListArray.add(data);
 		}
 		String actRow1List = reportsByWarehouseRow1ListArray.toString();
-		String expRow1List = "[1, SalOrd:10, 16/06/2023, item4, false, Close]";
+		String expRow1List = "[1, SalOrd:10, 16/06/2023, item3, false, Close]";
 		
 		
 
@@ -10900,7 +10900,7 @@ public class LinksReportsPage extends BaseEngine
 			reportsByWarehouseRow2ListArray.add(data);
 		}
 		String actRow2List = reportsByWarehouseRow2ListArray.toString();
-		String expRow2List = "[2, SalOrd:10, 16/06/2023, item3, false, Close]";	
+		String expRow2List = "[2, SalOrd:10, 16/06/2023, item4, false, Close]";	
 		
 		
 		System.out.println(actRow1List);
